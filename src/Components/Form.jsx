@@ -12,6 +12,7 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+
     const nombreEsValido = validarNombre(nombre);
     const emailEsValido = validarEmail(email);
 
@@ -38,6 +39,7 @@ const Form = () => {
     const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
     return regex.test(email);
+    
   };
 
   return (

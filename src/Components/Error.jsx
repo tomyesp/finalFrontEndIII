@@ -1,7 +1,7 @@
 function Error() {
     return (
       <div className="Error">
-        <p>Verifique los datos</p>
+        <p> Por favor verifique su información nuevamente</p>
       </div>
     );
   }

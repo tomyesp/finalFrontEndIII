@@ -1,6 +1,6 @@
-function Mensaje(props) {
+function Mensaje({nombre}) {
     return (
-      <h4>Gracias {props.name}, te contactaremos cuanto antes vía mail.</h4>
+      <h4>Gracias {nombre}, te contactaremos cuanto antes vía mail.</h4>
     );
   }
   
