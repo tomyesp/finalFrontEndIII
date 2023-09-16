@@ -1,11 +1,13 @@
+
 body {
-  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -25,9 +27,19 @@ h1{
 
 nav{
   display: flex;
-  width: 80vw;
-  justify-content: flex-start;
-  padding: 1rem;
+  width: 100%;
+  justify-content: space-around;
+  padding: 1rem 0rem;
+}
+
+li{
+  list-style:none
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
 }
 
 a{
@@ -44,12 +56,11 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 0rem;
   position: relative;
   bottom: 0;
-  width: 90%;
-  height: 40px;
-  margin-top: 2rem;
+  width: 100%;
+  height: 40px
 }
 
 footer > img{
@@ -66,7 +77,17 @@ form{
   flex-direction: column;
   justify-content: space-around;
   width: 300px;
-  height: 100px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
   margin: 0 auto;
 }
 
@@ -78,6 +99,7 @@ form{
   width: 200px;
   padding: 0.5rem 0.5rem 0 0.5rem;
   border: 0.5px solid rgb(136, 136, 136);
+  border-radius: 5%;
 }
 
 .card:hover{
@@ -118,6 +140,21 @@ tr:nth-child(even) {
   background-color: #12121296;
   color: white;
 }
-.dark > a {
+.dark a {
+  color: white;
+}
+
+.dark input {
+  background-color: #12121296;
+  color: white;
+}
+.dark li {
+  background-color: #12121296;
+  color: white;
+}
+
+
+.dark button {
+  background-color: #12121296;
   color: white;
 }
