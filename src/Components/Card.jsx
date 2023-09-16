@@ -33,7 +33,8 @@ const Card = ({ dentist }) => {
       
       <Link to={detailLink}>
         {/* En cada card deberan mostrar en name - username y el id */}
-        <div className="card">
+        <div className="cardDiv">
+        <img className="doctorIMG" src="/images/doctor.jpg" alt="doctor" />
           <h2>{dentist.name}</h2>
           <p>Username: {dentist.username}</p>
           <p>Id: {dentist.id}</p>
